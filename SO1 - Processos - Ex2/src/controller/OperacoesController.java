@@ -15,7 +15,7 @@ public class OperacoesController {
 		String so = System.getProperty("os.name");
 		return so;
 	}
-
+//
 	public void listarProcessos(String so) {
 		String processo;
 
@@ -57,6 +57,7 @@ public class OperacoesController {
 		try {
 			Runtime.getRuntime().exec(buffer.toString());
 			System.out.println("Processo finalizado!");
+			System.out.println("");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -74,6 +75,8 @@ public class OperacoesController {
 		try {
 			Runtime.getRuntime().exec(buffer.toString());
 			System.out.println("Processo finalizado!");
+			System.out.println("");
+		
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

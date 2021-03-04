@@ -13,7 +13,7 @@ public class Main {
 		int opc, pid;
 		
 		do {
-			System.out.print("1 - Listar Processos\n2 - Matar processo\n0 - Encerrar\n");
+			System.out.print("1 - Listar Processos\n2 - Matar por pid\n3 - Matar por nome\n0 - Encerrar\n");
 			opc = sc.nextInt();
 			switch (opc) {
 			case 1:

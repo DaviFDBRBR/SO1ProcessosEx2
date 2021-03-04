@@ -15,7 +15,7 @@ public class OperacoesController {
 		String so = System.getProperty("os.name");
 		return so;
 	}
-//
+	
 	public void listarProcessos(String so) {
 		String processo;
 

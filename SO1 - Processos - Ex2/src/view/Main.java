@@ -20,10 +20,12 @@ public class Main {
 				op.listarProcessos(so);
 				break;
 			case 2:
+				System.out.println("Digite o pid do processo: ");
 				pid = sc.nextInt();
 				op.matarPid(so, pid);
 				break;
 			case 3:
+				System.out.println("Digite o nome do processo:");
 				processo = sc.next();
 				op.matarNome(so, processo);
 				break;

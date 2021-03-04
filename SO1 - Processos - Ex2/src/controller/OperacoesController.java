@@ -22,7 +22,7 @@ public class OperacoesController {
 		if (so.contains("Windows")) {
 			processo = "TASKLIST /FO TABLE";
 		} else {
-			processo = "ps -ef";
+			processo = "ps -ef"; //jooj
 		}
 
 		try {
